@@ -1,0 +1,308 @@
+[
+  {
+    "question": "What are the three main employee classifications at TechV-Flash?",
+    "expected_section": "1.1 Employment Classification",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p2_c00"],
+    "ground_truth": "TechV-Flash classifies employees into Full-Time Employees (FTE), Part-Time Employees (PTE), and Interns/Trainees."
+  },
+  {
+    "question": "What is the standard probationary period for a new Full-Time Employee, and what notice period applies during probation?",
+    "expected_section": "1.2 Probationary Period",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p2_c01"],
+    "ground_truth": "New Full-Time Employees undergo a standard 90-day probationary period. During probation, employment may be terminated by either party with 15 days' notice."
+  },
+  {
+    "question": "What are the standard weekly working hours and Core Collaboration Hours for Full-Time Employees?",
+    "expected_section": "1.3 Working Hours & Core Hours",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p2_c02"],
+    "ground_truth": "The standard workweek for Full-Time Employees is 40 hours from Monday through Friday. Core Collaboration Hours are from 11:00 AM to 4:00 PM IST."
+  },
+  {
+    "question": "What happens if an employee loses their physical ID badge at the Pune facility?",
+    "expected_section": "1.4 Employee Badges & Office Access",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p2_c03"],
+    "ground_truth": "A lost badge must be reported immediately to IT Security, and a replacement fee of 500 INR is deducted from the subsequent payroll cycle."
+  },
+  {
+    "question": "What dress code applies to employees attending client meetings or external conferences?",
+    "expected_section": "2.1 Dress Code",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p3_c00"],
+    "ground_truth": "Employees must follow Business Professional attire when attending client meetings or external conferences. The normal office dress code is Smart Casual."
+  },
+  {
+    "question": "What is the escalation process if an employee has a workplace concern or grievance that is not resolved by their manager?",
+    "expected_section": "1.1 Escalation Matrix for Grievances",
+    "expected_chunk_ids": ["TechV-Flash_Disciplinary_Grievance_Policy_p1_c03", "TechV-Flash_Disciplinary_Grievance_Policy_p1_c08"],
+    "ground_truth": "If unresolved by the direct manager (Level 1, 5-day SLA), grievances escalate to the HRBP (Level 2, 10-day SLA), then to the Grievance Redressal Committee (Level 3, 15-day SLA), with final escalation to the CEO Office."
+  },
+  {
+    "question": "How long does TechV-Flash typically take to process a reasonable accommodation request?",
+    "expected_section": "3.2 Accommodations",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p4_c01"],
+    "ground_truth": "Reasonable accommodation requests submitted through the HR portal are typically processed within 5 business days."
+  },
+  {
+    "question": "What types of potential conflicts of interest must employees disclose and to whom?",
+    "expected_section": "4.1 Conflict of Interest",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p5_c00"],
+    "ground_truth": "Employees must avoid activities, investments, or associations that interfere with their independent judgment in TechV-Flash's best interests. Any potential conflict of interest must be disclosed in writing to HR immediately."
+  },
+  {
+    "question": "Who owns inventions, code, designs, and documentation developed by an employee during their tenure at TechV-Flash?",
+    "expected_section": "4.2 Intellectual Property (IP)",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p5_c01"],
+    "ground_truth": "All inventions, code, designs, and documentation developed by an employee during their tenure at TechV-Flash are the exclusive property of the company."
+  },
+  {
+    "question": "What restrictions does TechV-Flash place on employees representing the company on social media?",
+    "expected_section": "4.4 Social Media Policy",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p5_c03"],
+    "ground_truth": "Employees must not post confidential information or represent themselves as official company spokespersons on social media unless authorized. They should also avoid postings that could negatively impact the company's reputation."
+  },
+  {
+    "question": "What are the two bi-annual performance review periods at TechV-Flash?",
+    "expected_section": "5.1 Performance Review Cycle",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p7_c00"],
+    "ground_truth": "The Mid-Year Review is conducted in October and the Annual Appraisal is conducted in April."
+  },
+  {
+    "question": "What factors are considered when determining employee promotions?",
+    "expected_section": "5.2 Promotion Criteria",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p7_c01"],
+    "ground_truth": "Promotions are based on merit, consistent high performance, demonstrated readiness for the next level, and organizational business needs. Recommendations are reviewed by the Department Head and HR Committee."
+  },
+  {
+    "question": "What is the progressive disciplinary process for unresolved performance or behavioral issues?",
+    "expected_section": "6.1 Standard Disciplinary Procedure",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p8_c00"],
+    "ground_truth": "The progressive disciplinary process typically starts with verbal warnings, followed by written warnings, performance improvement plans, and ultimately termination if the issue remains unresolved."
+  },
+  {
+    "question": "How quickly does HR schedule mediation after an employee submits a formal grievance through the HR portal?",
+    "expected_section": "6.3 Dispute Resolution Process",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p8_c02"],
+    "ground_truth": "The HR department will schedule mediation sessions within 3 business days of a formal grievance request."
+  },
+  {
+    "question": "What disciplinary action applies to a first offense involving harassment, theft, or physical violence?",
+    "expected_section": "6.4 Table of Progressive Disciplinary Actions",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p9_c00"],
+    "ground_truth": "A first offense involving harassment, theft, or physical violence results in immediate termination and potential legal action."
+  },
+  {
+    "question": "What notice period must a confirmed Full-Time Employee serve after resignation according to the general HR Employee Handbook?",
+    "expected_section": "7.1 Notice Period",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p10_c00"],
+    "ground_truth": "A confirmed Full-Time Employee must serve a 60-day notice period upon resignation. During probation, the notice period is 15 days. The company may waive the notice period or accept payment in lieu of notice."
+  },
+  {
+    "question": "Within how many calendar days must the Full & Final settlement be processed after an employee's last working day?",
+    "expected_section": "7.4 Full & Final Settlement (F&F) Timeline",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p10_c03"],
+    "ground_truth": "The Full & Final settlement statement and pending payouts will be processed and credited within 45 calendar days from the employee's last working day, subject to complete asset handover and department sign-offs."
+  },
+  {
+    "question": "What are the confirmed notice periods for L1-L2, L3-L4, and L5-L6 employees according to the Employee Handbook notice-period table?",
+    "expected_section": "7.5 Table of Notice Periods by Level",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p11_c00"],
+    "ground_truth": "The Employee Handbook specifies 30 days for L1-L2, 60 days for L3-L4, and 90 days for L5-L6 during confirmed status."
+  },
+  {
+    "question": "What should employees do when a fire alarm is activated at the Pune facility?",
+    "expected_section": "8.2 Fire Safety & Evacuation Plan",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p12_c01"],
+    "ground_truth": "Employees must immediately evacuate the building using the stairs and must not use elevators. Employees should familiarize themselves with emergency exits and assembly points."
+  },
+  {
+    "question": "How can employees anonymously report suspected unethical behavior or financial fraud?",
+    "expected_section": "9.1 Whistleblower Policy",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p13_c00"],
+    "ground_truth": "Employees can make anonymous reports through the dedicated whistleblower email address whistleblower@techvflash.com. The company guarantees protection against retaliation for reports made in good faith."
+  },
+  {
+    "question": "What approvals are required for an employee to engage in freelancing or another business activity outside TechV-Flash?",
+    "expected_section": "9.2 External Engagements & Moonlighting",
+    "expected_chunk_ids": ["TechV-Flash_HR_Employee_Handbook_p13_c01"],
+    "ground_truth": "Employees are prohibited from other business or employment activities, including freelancing or advisory roles, unless they receive prior written consent from both the CEO and HR."
+  },
+  {
+    "question": "What background verification checks are mandatory for candidates joining TechV-Flash?",
+    "expected_section": "2.1 Mandatory Checks",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p2_c00"],
+    "ground_truth": "Mandatory BGV checks include education validation, criminal record checks, and employment history covering the past 5 years or the last 2 employers, whichever is greater."
+  },
+  {
+    "question": "What happens if a candidate submits a forged experience letter or fake educational degree?",
+    "expected_section": "2.1 Mandatory Checks",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p2_c00"],
+    "ground_truth": "Falsification discovered during BGV, including forged experience letters, undisclosed terminations, or fake educational degrees, leads to immediate withdrawal of the offer or instant termination if the candidate has already joined."
+  },
+  {
+    "question": "How far in advance must new hires submit self-attested digital copies of their Day 1 documents?",
+    "expected_section": "3. Day 1 Documentation",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p3_c00"],
+    "ground_truth": "New hires must submit self-attested digital copies of the required documents to the HR portal at least 48 hours before their Date of Joining. Original documents must be presented on Day 1 for visual verification."
+  },
+  {
+    "question": "What happens if a Full-Time Employee does not fully meet performance metrics during probation?",
+    "expected_section": "4.2 Extension of Probation",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p4_c01"],
+    "ground_truth": "TechV-Flash may extend the probationary period by an additional 30 to 60 days. During the extension, the employee is not eligible for standard benefits such as the Annual Learning Allowance or internal transfers."
+  },
+  {
+    "question": "What is the minimum score required in the Technical Assessment during recruitment?",
+    "expected_section": "6.3 Table of Interview Evaluation Matrix",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p7_c02"],
+    "ground_truth": "Candidates must achieve a minimum score of 70% on the Technical Assessment test portal."
+  },
+  {
+    "question": "How quickly must interview panels submit written feedback after completing an interview round?",
+    "expected_section": "6.2 Candidate Feedback SLAs",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p6_c01"],
+    "ground_truth": "Interview panels must submit written feedback scorecards through the recruitment system within 24 hours of completing the interview round."
+  },
+  {
+    "question": "How long is a released offer letter valid, and what must the candidate do within that period?",
+    "expected_section": "7.2 Offer Validity and Acceptance",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p7_c03"],
+    "ground_truth": "A released offer letter is valid for 5 business days. The candidate must accept the offer and submit their digital signature on the portal within this period, otherwise the offer is revoked."
+  },
+  {
+    "question": "What are the travel, hotel, and meal allowances for an interview candidate traveling from a location more than 500 km away?",
+    "expected_section": "9.2 Table of Candidate Travel Slabs for Interviews",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p9_c01"],
+    "ground_truth": "For locations more than 500 km away, the approved travel mode is Economy Class Flight at the lowest fare, hotel lodging is capped at 4,000 INR per night for a maximum of 2 nights, and the meal per diem is 1,200 INR per day."
+  },
+  {
+    "question": "What compliance training must new hires complete within their first 15 days, and what access restriction applies until completion?",
+    "expected_section": "11.2 Compliance Training Deadlines",
+    "expected_chunk_ids": ["TechV-Flash_Recruitment_Onboarding_Policy_p11_c01"],
+    "ground_truth": "New hires must complete Information Security, Data Privacy, and POSH compliance training within the first 15 days of joining. Access to production servers is restricted until these modules are completed."
+  },
+  {
+    "question": "How far in advance must domestic and international flights be booked under the Travel & Expense Policy?",
+    "expected_section": "1.2 Advance Booking Mandate",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p1_c01"],
+    "ground_truth": "Domestic flights must be booked at least 14 days in advance, while international flights must be booked at least 30 days in advance. Late bookings require a justification note approved by the Department Head."
+  },
+  {
+    "question": "What are the hotel accommodation limits for L1-L3 employees in Tier 1 cities and Tier 2 cities?",
+    "expected_section": "3. Accommodation Caps (Per Night)",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p3_c00"],
+    "ground_truth": "For L1-L3 employees, the accommodation limit is 4,500 INR per night in Tier 1 cities and 3,000 INR per night in Tier 2 and other cities."
+  },
+  {
+    "question": "What is the daily meal allowance for domestic and international business travel?",
+    "expected_section": "4.1 Daily Allowances",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p4_c00"],
+    "ground_truth": "Employees receive a daily meal allowance of 1,200 INR for domestic travel and 75 USD for international travel. The allowance covers breakfast, lunch, dinner, and incidentals."
+  },
+  {
+    "question": "When are alcoholic beverage expenses reimbursable during business travel?",
+    "expected_section": "4.1 Daily Allowances",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p4_c00"],
+    "ground_truth": "Alcoholic beverages are normally non-reimbursable. They are permitted only during approved Client Entertainment events, capped at 2,500 INR per head, and require explicit Vice President approval on the expense report."
+  },
+  {
+    "question": "Within how many days must employees submit their travel expense reports after completing a trip?",
+    "expected_section": "5.2 Submission Timeline",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p5_c01"],
+    "ground_truth": "Expense reports must be submitted through the Zoho Expense portal within 30 calendar days of the trip's completion. Reports submitted after 30 days are automatically rejected with no exceptions."
+  },
+  {
+    "question": "What are the spending caps for client entertainment dinners and lunches, and what happens when the cap is exceeded?",
+    "expected_section": "6.2 Spending Caps",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p6_c01"],
+    "ground_truth": "Client entertainment is capped at 3,000 INR per guest for dinner and 1,500 INR per guest for lunch, excluding service tax. Expenses exceeding these limits require HOD sign-off."
+  },
+  {
+    "question": "Does TechV-Flash reimburse travel or meal expenses for an employee's spouse or children during a corporate assignment?",
+    "expected_section": "7.1 Personal Travel Exclusion",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p7_c00"],
+    "ground_truth": "No. TechV-Flash does not fund or reimburse travel, lodging, or meal costs for spouses, children, or other family members accompanying employees on corporate assignments."
+  },
+  {
+    "question": "What is the reimbursement rate per kilometer for an employee-owned two-wheeler and four-wheeler used for business travel?",
+    "expected_section": "9.3 Table of Local Conveyance & Mileage Slabs",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p9_c01"],
+    "ground_truth": "The reimbursement rate is 6 INR per kilometer for an employee-owned two-wheeler and 12 INR per kilometer for an employee-owned four-wheeler."
+  },
+  {
+    "question": "What must an employee do if their baggage is lost or damaged during transit?",
+    "expected_section": "10.2 Administrative Procedures",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p10_c01"],
+    "ground_truth": "The employee must file a Property Irregularity Report (PIR) with the airline before leaving the arrival hall and provide a copy of the incident report to the travel desk."
+  },
+  {
+    "question": "When can an employee request a cash advance for business travel, and how far in advance must the request be submitted?",
+    "expected_section": "12.1 Requesting Cash Advances",
+    "expected_chunk_ids": ["TechV-Flash_Travel_Expense_Policy_p12_c00"],
+    "ground_truth": "Employees traveling for longer than 7 days or to locations with low digital payment options may request a cash advance through Zoho Expense. The request must be submitted at least 7 days before departure."
+  },
+  {
+    "question": "How does the Resignation & Exit Policy define the notice period for confirmed L1-L3 and L4+ Full-Time Employees?",
+    "expected_section": "1.1 Standard Notice Durations",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p1_c03"],
+    "ground_truth": "Confirmed L1-L3 Full-Time Employees have a 60-day notice period, while confirmed L4+ Full-Time Employees have a 90-day notice period. Employees on probation have a 15-day notice period."
+  },
+  {
+    "question": "Can an employee automatically buy out their notice period under the Resignation & Exit Policy?",
+    "expected_section": "1.2 Notice Period Buyout / Shortfall",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p1_c06"],
+    "ground_truth": "No. Notice period buyout is not a guaranteed right and is entirely at the discretion of the Department Head and HR. If approved, the unserved notice period is deducted from the Full & Final settlement based on Basic Salary."
+  },
+  {
+    "question": "Can employees use PTO or Casual Leave while serving their notice period?",
+    "expected_section": "Leave During Notice Period",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p1_c07"],
+    "ground_truth": "Employees are not permitted to use PTO or Casual Leave during their notice period. Medical emergencies must be supported by a medical certificate and will extend the last working day by the corresponding number of days."
+  },
+  {
+    "question": "How many days before the last working day must a resigning employee submit their Knowledge Transfer document and obtain manager sign-off?",
+    "expected_section": "2.2 Knowledge Transfer (KT) & Handover",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p3_c01"],
+    "ground_truth": "The resigning employee must submit a comprehensive Knowledge Transfer document and obtain Reporting Manager sign-off at least 7 days before their last working day."
+  },
+  {
+    "question": "What time must company-issued assets be handed over to IT on the last working day?",
+    "expected_section": "2.3 IT & Asset Clearance",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p3_c02"],
+    "ground_truth": "Company-issued assets such as laptops, ID badges, and corporate credit cards must be handed over to the IT Department by 3:00 PM on the last working day."
+  },
+  {
+    "question": "What PTO can be encashed at separation under the Resignation & Exit Policy, and what is the maximum number of days?",
+    "expected_section": "8.2 Leave Encashment Calculations",
+    "expected_chunk_ids": ["TechV-Flash_Payroll_Compensation_Policy_p1_c19", "TechV-Flash_Resignation_Exit_Policy_p1_c07"],
+    "ground_truth": "Unutilized accrued PTO days up to a maximum of 45 days can be encashed at the time of separation calculated as (Basic Salary / 30) * Accrued PTO Days."
+  },
+  {
+    "question": "When does corporate Group Health Insurance coverage end after an employee leaves TechV-Flash?",
+    "expected_section": "8.1 Coverage Termination Date",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p9_c00"],
+    "ground_truth": "Corporate Group Health Insurance coverage for the employee and dependents ends at midnight on the last working day. Active hospitalizations on the last working day remain covered until discharge."
+  },
+  {
+    "question": "How long does a departing employee have to request portability of their corporate Group Health Insurance plan?",
+    "expected_section": "8.2 Insurance Portability Option",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p9_c01"],
+    "ground_truth": "Employees have 30 days from their last working day to request migration of the corporate Group Health Insurance plan to a retail plan with the same insurer."
+  },
+  {
+    "question": "How many years of continuous service are required for an employee to qualify for the gratuity payout under the Resignation & Exit Policy?",
+    "expected_section": "7.1 Gratuity Claim Submission",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p8_c00"],
+    "ground_truth": "An employee must complete 5 years of continuous service to qualify for the gratuity claim."
+  },
+  {
+    "question": "For how long after separation must former employees avoid soliciting active TechV-Flash employees?",
+    "expected_section": "11.1 Non-Solicitation of Employees",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p12_c00"],
+    "ground_truth": "Former employees must not solicit, recruit, or attempt to hire active TechV-Flash employees for external businesses for 12 months following separation."
+  },
+  {
+    "question": "For how long after separation are employees restricted from soliciting clients they worked with during the 12 months before their last working day?",
+    "expected_section": "11.2 Non-Solicitation of Clients",
+    "expected_chunk_ids": ["TechV-Flash_Resignation_Exit_Policy_p12_c01"],
+    "ground_truth": "Employees are restricted from soliciting business from active clients they worked with during the 12 months prior to their last working day for 12 months after separation."
+  }
+]
