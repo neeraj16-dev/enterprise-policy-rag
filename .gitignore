@@ -1,0 +1,14 @@
+# Environment & secrets
+.env
+.venv/
+__pycache__/
+
+# Document indices & Vector storage
+storage/
+data/indices/
+*.pkl
+*.sqlite3
+chroma_db/
+
+# Evaluation reports & temporary runs
+tests/eval_report.json
